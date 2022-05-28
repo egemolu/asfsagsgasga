@@ -35,3 +35,7 @@ app.get("/messages/:hash", (req, res) => {
     res.status(404).send({ message: "Wrong Hash!!" });
   }
 });
+
+app.get("/", (req, res) => {
+  res.send("Hello :)");
+});
