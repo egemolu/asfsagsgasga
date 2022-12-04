@@ -1,5 +1,5 @@
 const express = require("express");
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5050;
 const app = express();
 const crypto = require("crypto");
 
